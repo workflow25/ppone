@@ -87,7 +87,7 @@ jobs:
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
 
   deploy-prod:
-    name: release-staging
+    name: master
     permissions:
       contents: none
     runs-on: ubuntu-latest
