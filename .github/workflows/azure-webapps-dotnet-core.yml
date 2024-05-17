@@ -63,6 +63,7 @@ jobs:
           path: ${{env.DOTNET_ROOT}}/myapp
 
   deploy:
+    name: Production
     permissions:
       contents: none
     runs-on: ubuntu-latest
