@@ -40,7 +40,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: check sec
-        run:  echo "Deploying to ${{ matrix.environment }}." 
+        run: |
+             echo "Deploying to ${{ matrix.environment }}." 
+             echo "environment ${{vars.Environment}}"
       - name: run commands
         run: bash ${GITHUB_WORKSPACE}/scripts/sample.sh
         env:
