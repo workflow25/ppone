@@ -64,6 +64,8 @@ jobs:
       - name: run commands
         run: |
              echo  "$PWD"
+             echo  "$cd /home/runner/work/ppone/ppone"
+             echo "$ls"
   deploy-stg:
     name: release-staging
     permissions:
