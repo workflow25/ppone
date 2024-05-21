@@ -15,25 +15,19 @@ git checkout dev
 
 echo "##################Clone destination repo##########################"
 
-cd -
-cd -
+cd /home/runner/work/ppone/ppone
 pwd
 mkdir destinationrepo
 pwd
 cd destinationrepo
 git clone https://$GH_TOKEN@github.com/workflow25/dummy12301.git
 cd dummy12301
+echo "##################destination repo files ##########################"
 ls
 git checkout dev
-echo "##################Clone destination repo files ##########################"
-ls
-echo "##################Clone destination repo path##########################"
-cd $OLDPWD
-ls
-pwd
 
 echo "##################Move to root folder ##########################"
-cd $OLDPWD
+cd /home/runner/work/ppone/ppone
 ls
 
 
