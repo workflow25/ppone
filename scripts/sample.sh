@@ -8,7 +8,7 @@ gh extension upgrade github/gh-ado2gh
 # === Migration started ===
 
 echo "Repo migration started gokultest12301"
-gh ado2gh migrate-repo --ado-org gokuldevops20 --ado-team-project gokultest --ado-repo gokultest --github-org  workflow25 --github-repo gokultest12301
+gh ado2gh migrate-repo --ado-org gokuldevops20 --ado-team-project gokultest --ado-repo gokultest --github-org  workflow25 --github-repo dummy12301
 echo "Repo migration end gokultest12301"
 
 # echo "Repo migration started gokultest12302"
