@@ -17,13 +17,17 @@ echo "##################Clone destination repo##########################"
 cd -
 pwd
 mkdir destinationrepo
-cd destination repo
+cd destinationrepo
 git clone https://$GH_TOKEN@github.com/workflow25/dummy12301.git
 cd dummy12301
 ls
 git checkout dev
+echo "##################Clone destination repo files ##########################"
 ls
+echo "##################Clone destination repo path##########################"
 pwd
+
+echo "##################Move to root folder ##########################"
 cd -
 ls
 
