@@ -63,7 +63,6 @@ jobs:
           path: ${{env.DOTNET_ROOT}}/myapp
       - name: run commands
         run: |
-             echo  "$PWD"
              echo  "$ls"
   deploy-stg:
     name: release-staging
