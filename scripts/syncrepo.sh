@@ -1,4 +1,6 @@
 echo "start syncing the repo"
 
 pwd
-ls
+mkdir sourcerepo
+cd sourcerepo
+pwd
