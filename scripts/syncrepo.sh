@@ -16,9 +16,14 @@ git checkout dev
 echo "##################Clone destination repo##########################"
 
 cd /home/runner/work/ppone/ppone
+
 pwd
+
+cho "################## make destination repo##########################"
+
 mkdir destinationrepo
 pwd
+
 cd destinationrepo
 git clone https://$GH_TOKEN@github.com/workflow25/dummy12301.git
 cd dummy12301
