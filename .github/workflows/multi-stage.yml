@@ -62,13 +62,9 @@ jobs:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
       - name: run commands
+        shell: perl {0}
         run: |
-             echo  "$PWD"
-             echo  "$cd /home/runner/work/ppone/ppone"
-             echo  "$ls"
-             echo  "$cd /Controllers" 
-             echo "$PWD"
-             echo "git path ${GITHUB_WORKSPACE}"
+         pwd
   deploy-stg:
     name: release-staging
     permissions:
