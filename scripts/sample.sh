@@ -1,8 +1,6 @@
 echo "Install github migration tool"
 
-env:
-    GH_TOKEN: "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"
-    
+export GH_TOKEN="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"   
 export GH_PAT="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"
 export ADO_PAT="oyn3t63awagzl7qyqps3e2l4btimf45rfx2hwuvmsoo3z5tnmfuq"
 
