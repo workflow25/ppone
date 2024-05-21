@@ -33,7 +33,10 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    environment:
+      name: 'Development'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+      
     steps:
       - uses: actions/checkout@v4
       - name: check sec
