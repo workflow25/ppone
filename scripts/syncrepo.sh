@@ -17,6 +17,7 @@ cd gokultest
 pwd
 ls
 git checkout dev
+ls
 
 echo "##################Clone destination repo##########################"
 
