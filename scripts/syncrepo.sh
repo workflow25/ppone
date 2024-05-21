@@ -14,7 +14,7 @@ ls
 git checkout dev
 
 echo "Clone destination repo"
-cd..
+cd -
 pwd
 mkdir destinationrepo
 cd destination repo
@@ -24,7 +24,7 @@ ls
 git checkout dev
 ls
 pwd
-cd..
+cd -
 ls
 
 
