@@ -13,12 +13,12 @@ cd gokultest
 ls
 git checkout dev
 
-echo "Clone destination repo"
+echo "##################Clone destination repo##########################"
 cd -
 pwd
 mkdir destinationrepo
 cd destination repo
-git clone https://$GH_PATTOKEN@github.com/workflow25/dummy12301.git
+git clone https://$GH_TOKEN@github.com/workflow25/dummy12301.git
 cd dummy12301
 ls
 git checkout dev
