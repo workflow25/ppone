@@ -32,6 +32,7 @@ permissions:
 
 jobs:
   build:
+    name: Initial Migration
     runs-on: ubuntu-latest
     environment:
       name: 'Development'
