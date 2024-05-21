@@ -19,7 +19,7 @@ cd /home/runner/work/ppone/ppone
 
 pwd
 
-cho "################## make destination repo##########################"
+echo "################## make destination repo##########################"
 
 mkdir destinationrepo
 pwd
