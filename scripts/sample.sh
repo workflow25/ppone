@@ -1,5 +1,7 @@
 echo "Install github migration tool"
 
+echo "FOO_ROOT: $GH_TOKEN"
+
 gh extension install github/gh-ado2gh
 gh extension upgrade github/gh-ado2gh
 
