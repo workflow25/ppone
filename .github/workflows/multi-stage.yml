@@ -66,9 +66,9 @@ jobs:
              echo  "$PWD"
              echo  "$cd /home/runner/work/ppone/ppone"
              echo  "$ls"
-             echo  "cd /Controllers" 
+             echo  "$cd /Controllers" 
              echo "$PWD"
-             echo "${GITHUB_WORKSPACE}"
+             echo "git path ${GITHUB_WORKSPACE}"
   deploy-stg:
     name: release-staging
     permissions:
