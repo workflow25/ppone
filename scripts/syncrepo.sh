@@ -46,4 +46,10 @@ ls
 cp -r sourcerepo/gokultest/* destinationrepo/dummy12301
 
 cd /home/runner/work/ppone/ppone/reposync/destinationrepo/dummy12301
+echo "################## copied contents ##########################"
 ls
+git add -A
+git commit -m "sync the branch"
+git push origin
+
+
