@@ -35,6 +35,7 @@ echo "##################destination repo files ##########################"
 pwd
 ls
 git checkout dev
+ls
 
 echo "##################Move to root folder ##########################"
 cd /home/runner/work/ppone/ppone/reposync
