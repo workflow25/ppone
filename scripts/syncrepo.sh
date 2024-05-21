@@ -15,9 +15,7 @@ git checkout dev
 
 echo "##################Clone destination repo##########################"
 
-echo $OLDPWD
-
-cd $OLDPWD
+cd --
 pwd
 mkdir destinationrepo
 pwd
