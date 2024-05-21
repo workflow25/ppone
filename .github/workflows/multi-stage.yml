@@ -62,7 +62,7 @@ jobs:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
       - name: run commands
-        run: bash ${GITHUB_WORKSPACE}/path/script.sh
+        run: bash ${GITHUB_WORKSPACE}/scripts/sample.sh
   deploy-stg:
     name: release-staging
     permissions:
