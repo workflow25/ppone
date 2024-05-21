@@ -62,7 +62,9 @@ jobs:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
       - name: run commands
-        run: echo  "$PWD"
+        run: |
+             echo  "$PWD"
+             echo  "$ls"
   deploy-stg:
     name: release-staging
     permissions:
