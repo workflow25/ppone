@@ -40,7 +40,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: check sec
-        run: echo "token - ${{ secrets.GH_PATTOKEN }}"
+        run:  echo "Deploying to ${{ matrix.environment }}." 
       - name: run commands
         run: bash ${GITHUB_WORKSPACE}/scripts/sample.sh
         env:
