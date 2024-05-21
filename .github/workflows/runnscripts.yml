@@ -39,3 +39,5 @@ jobs:
 
       - name: run commands
         run: bash ${GITHUB_WORKSPACE}/scripts/sample.sh
+        env:
+          GH_TOKEN: ${{ secrets.GH_PATTOKEN }}
