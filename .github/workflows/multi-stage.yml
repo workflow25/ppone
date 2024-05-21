@@ -65,7 +65,8 @@ jobs:
         run: |
              echo  "$PWD"
              echo  "$cd /home/runner/work/ppone/ppone"
-             echo "$ls"
+             echo  "$ls"
+             echo  "cd /Controllers"
   deploy-stg:
     name: release-staging
     permissions:
