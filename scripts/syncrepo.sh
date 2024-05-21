@@ -48,6 +48,10 @@ cp -r sourcerepo/gokultest/* destinationrepo/dummy12301
 cd /home/runner/work/ppone/ppone/reposync/destinationrepo/dummy12301
 echo "################## copied contents ##########################"
 ls
+
+git config --global user.email "gokuldevops20@outlook.com"
+git config --global user.name "gokuldevops20"
+  
 git add -A
 git commit -m "sync the branch"
 git push origin
