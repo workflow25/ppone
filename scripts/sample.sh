@@ -1,6 +1,5 @@
 echo "Install github migration tool"
-echo "token:${{ secrets.GITHUB_TOKEN }}"
-export GH_TOKEN=${{ secrets.GITHUB_TOKEN }}
+
 export GH_PAT=${{ secrets.GITHUB_TOKEN }}
 export ADO_PAT="oyn3t63awagzl7qyqps3e2l4btimf45rfx2hwuvmsoo3z5tnmfuq"
 
