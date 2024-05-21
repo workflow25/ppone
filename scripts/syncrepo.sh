@@ -1,6 +1,7 @@
 echo "start syncing the repo"
 
 pwd
+mkdir reposync
 mkdir sourcerepo
 cd sourcerepo
 pwd
@@ -15,14 +16,13 @@ git checkout dev
 
 echo "##################Clone destination repo##########################"
 
-cd /home/runner/work/ppone/ppone
-
-pwd
+cd /home/runner/work/ppone/ppone/reposync
+ls
 
 echo "################## make destination repo##########################"
-
 mkdir destinationrepo
 pwd
+ls
 
 cd destinationrepo
 git clone https://$GH_TOKEN@github.com/workflow25/dummy12301.git
@@ -32,7 +32,7 @@ ls
 git checkout dev
 
 echo "##################Move to root folder ##########################"
-cd /home/runner/work/ppone/ppone
+cd /home/runner/work/ppone/ppone/reposync
 ls
 
 
