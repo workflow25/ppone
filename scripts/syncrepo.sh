@@ -41,5 +41,8 @@ cd /home/runner/work/ppone/ppone/reposync
 pwd
 ls
 
+cp -r sourcerepo/gokultest destinationrepo/dummy12301
+
+
 
 
