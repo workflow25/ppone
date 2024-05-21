@@ -39,11 +39,12 @@ jobs:
       
     steps:
       - uses: actions/checkout@v4
-      - name: check sec
+      - name: checking Environment
         run: |
-             echo "Deploying to ${{ matrix.environment }}." 
-             echo "environment ${{vars.Environment}}"
+             echo "Scripts executing environment::  ${{vars.Environment}}"
       - name: run commands
         run: bash ${GITHUB_WORKSPACE}/scripts/sample.sh
         env:
           GH_TOKEN: ${{ secrets.GH_PATTOKEN }}
+          GH_PAT: ${{ secrets.GH_PATTOKEN }}
+          ADO_PAT: ${{ secrets.ADO_PAT }}
