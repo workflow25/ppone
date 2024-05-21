@@ -24,5 +24,8 @@ ls
 git checkout dev
 ls
 pwd
+cd..
+ls
+
 
 
