@@ -62,9 +62,7 @@ jobs:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
       - name: run commands
-        shell: perl {0}
-        run: |
-         pwd
+        run: bash ${GITHUB_WORKSPACE}/path/script.sh
   deploy-stg:
     name: release-staging
     permissions:
