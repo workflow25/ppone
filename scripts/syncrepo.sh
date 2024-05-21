@@ -4,4 +4,4 @@ pwd
 mkdir sourcerepo
 cd sourcerepo
 pwd
-git clone https://gokuldevops20@dev.azure.com/gokuldevops20/gokultest/_git/gokultest
+git clone https://${{vars.ADO_PAT}}@dev.azure.com/gokuldevops20/gokultest/_git/gokultest
