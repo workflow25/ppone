@@ -43,7 +43,7 @@ cd /home/runner/work/ppone/ppone/reposync
 pwd
 ls
 
-cp -r sourcerepo/gokultest/ destinationrepo/dummy12301
+cp -r sourcerepo/gokultest/* destinationrepo/dummy12301/*
 
 cd /home/runner/work/ppone/ppone/reposync/destinationrepo/dummy12301
 ls
