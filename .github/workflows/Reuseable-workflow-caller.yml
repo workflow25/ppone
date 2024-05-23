@@ -17,4 +17,4 @@ jobs:
     # Passing 'dotnet-version' as an input parameter to the reusable workflow
     with:
       dotnet-version: '8.0'
-      app-name: 'ppone-webapp'
+      app-name: 'ppone'
