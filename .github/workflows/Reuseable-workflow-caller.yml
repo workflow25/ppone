@@ -11,7 +11,7 @@ permissions:
   contents: read
   
 jobs:
-  build-deploy:
+  release:
     # Importing a reusable workflow from another repository and branch
     uses: workflow25/public-pipeline-config/.github/workflows/net6-reusable-template.yml@main
     # Passing 'dotnet-version' as an input parameter to the reusable workflow
