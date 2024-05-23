@@ -1,0 +1,19 @@
+name: Multi Staging
+
+env:
+  AZURE_WEBAPP_NAME: your-app-name    # set this to the name of your Azure Web App
+  AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  
+jobs:
+  build-deploy:
+    # Importing a reusable workflow from another repository and branch
+    uses: workflow25/Pipeline-Config/.github/workflows/net6-reusable-template.yml@main
+    # Passing 'node-version' as an input parameter to the reusable workflow
+    with:
+      dotnet-version: '8.0'
