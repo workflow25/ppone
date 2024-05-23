@@ -13,7 +13,7 @@ permissions:
 jobs:
   build-deploy:
     # Importing a reusable workflow from another repository and branch
-    uses: workflow25/Pipeline-Config/blob/main/.github/workflows/net6-reusable-template.yml
+    uses: workflow25/Pipeline-Config/blob/main/.github/workflows/net6-reusable-template.yml@main
     # Passing 'node-version' as an input parameter to the reusable workflow
     with:
       dotnet-version: '8.0'
